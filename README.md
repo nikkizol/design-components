@@ -1,4 +1,4 @@
 # UI Components
-## Mission:
+## Goal:
 Reproduce in html and CSS designs.
 
