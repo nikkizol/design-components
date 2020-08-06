@@ -7,7 +7,6 @@ body {
 .outline-mode * {
     outline: 1px solid #000;
 }
-
 label[for="lname"] {
     margin-left: 45px;
     font-size: 13px;
@@ -66,7 +65,7 @@ h3  {
     margin-left: 72px;
 }
 .Relationship {
-    margin-left: 217px;
+    margin-left: 260px;
 }
 .Adress {
     padding-top: 30px;
@@ -147,3 +146,6 @@ textarea {
 .bel {
     margin-top: 6px;
     width: 255px;}
+.name {
+    margin-bottom: -19px;
+}

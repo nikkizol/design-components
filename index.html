@@ -1,8 +1,7 @@
 <!doctype html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Emergency contact and Medical inforamtian</title>
@@ -16,14 +15,14 @@
     <label for="fname">First</label>
     <label for="lname">Last</label>
 </form>
-<p><label class="gender"><b>Gender</b></label> </br>
+<p><b>Gender</b></br>
 <select>
     <option>Male</option>
     <option>Female</option>
 </select>
     <form class="date">
     <label><b>Date of Birth</b></label></br>
-    <input type="text" id="mm" name="nn" value="" maxlength="2" size="2"> /
+    <input type="text" id="mm" name="mm" value="" maxlength="2" size="2"> /
     <input type="text" id="dd" name="dd" value=""maxlength="2" size="2"> /
     <input type="text" id="yyyy" name="yyyy" value=""maxlength="5" size="5"> 🗓</br>
     <label for="mm">MM</label>
@@ -31,16 +30,18 @@
     <label for="yyyy">YYYY</label>
 </form>
     <h3>Emergency Contact</h3>
-        <label class="name"><b>Name</b></label> <label class="Relationship"><b>Relationship</b></label></br>
+<form>
+        <p class="name"><b>Name</b></p> <label class="Relationship"><b>Relationship</b></label></br>
         <input type="text" id="fname" name="fname" value="" maxlength="8" size="8">
         <input type="text" id="lname" name="lname" value=""maxlength="15" size="15">
         <input type="text" id="relationship" name="relationship" value=""maxlength="35" size="35"></br>
-        <label for="fname">First</label>
-<label for="lname">Last</label></br>
-<div class="Adress"></div> <label><b>Address</b></label></br>
-    <input type="text" id="adress" name="adress" value=""maxlength="72" size="72"></br>
+        <label for="fname">First</label> <label for="lname">Last</label></br>
+</form>
+<form>
+    <p><b>Address</b></p></br>
+    <input type="text" id="streetadress" name="streetadress" value=""maxlength="72" size="72"></br>
      <label class="StreetAddress">Street Address</label></br>
-    <input type="text" id="adr" name="adress" value=""maxlength="72" size="72"></br>
+    <input type="text" id="addressline" name="addressline" value=""maxlength="72" size="72"></br>
         <label for="fname" class="addressline">Address Line</label></br>
             <input type="text" id="adr" name="adress" value=""maxlength="35" size="35">
             <input type="text" id="adr" name="adress" value=""maxlength="35" size="35"> </br>
@@ -50,7 +51,9 @@
 <select class="bel">
     <option>Belgium</option>
     <option>The Rest of the world</option>
-</select> </br>
+</select>
+</form>
+<form>
 <label for="fname" class="city">Postal / Zip Code </label>
 <label class="country">Country</label> </br>
 <div class="phone"></div>
@@ -67,7 +70,9 @@
 <label class="numb">###</label>
 <label class="r">###</label>
 <label class="t">###</label></br>
+</form>
 <h3>Medical Information</h3>
+<form>
 <label><b>Hospital / Clinic Preference</b></label></br>
 <input type="text" id="clini" name="adress" value=""maxlength="72" size="72"></br>
 <label class="name"><b>Insurance Company</b></label> <label class="pol"><b>Policy Number</b></label> </br>
@@ -83,6 +88,7 @@
 <label class="r">###</label>
 <label class="t">###</label>
 </div>
+</form>
 <label class="all"><b>Allergies / Special Health Considerations</b></label>
 <form class="comm">
     <textarea> </textarea>
