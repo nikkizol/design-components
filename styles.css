@@ -3,6 +3,10 @@ body {
     padding: 20px;
     width: 800px;
     margin:auto;
+}
+.outline-mode * {
+    outline: 1px solid #000;
+}
 
 
 }
