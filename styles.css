@@ -1,6 +1,10 @@
 body {
     border-left: 1px solid ;
-    padding: 10px;
+    padding: 20px;
+    width: 800px;
+    margin:auto;
+
+
 }
 label[for="lname"] {
     margin-left: 38px;
@@ -13,4 +17,35 @@ label[for="fname"] {
 input {
     margin-top: 6px;
     margin-bottom: 6px;
+}
+select {
+    width:270px;
+}
+p {margin-top: 40px;
+    margin-bottom: 2px;
+
+}
+h1 {border-bottom: 1px dotted}
+
+div {
+    float: right;
+    margin-top: -45px;
+    margin-right: 370px;
+
+}
+
+label[for="mm"] {
+    margin-left: 2px;
+    font-size: 13px;
+}
+label[for="dd"] {
+    margin-left: 11px;
+    font-size: 13px;
+}
+label[for="yyyy"] {
+    margin-left: 13px;
+    font-size: 13px;
+}
+select {
+    margin-top: 6px;
 }
