@@ -53,12 +53,66 @@ select {
 
 h3  {
     border-top: 1px dotted;
-    margin-top: 60px;
+    margin-top: 35px;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 #relationship {
     margin-left: 107px;
 }
-.namerel {
+.Relationship {
     margin-left: 245px;
+}
+.Adress {
+    padding-top: 30px;
+}
+.StreetAddress {
+    font-size: 13px;
+}
+#adress {
+    margin-bottom: -2px;
+}
+#adr {
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+.addressline {
+    font-size: 13px;
+}
+.city {
+    font-size: 13px;
+}
+.state {
+    font-size: 13px;
+    margin-left: 233px;
+}
+.country {
+    font-size: 13px;
+    margin-left: 166px;
+}
+
+#nm {
+    margin-left: 140px;
+
+}
+.workhome {
+    margin-left: 168px;
+}
+.numb { margin-left: 153px;
+
+}
+.w {
+    margin-left: 9px;
+}
+.e {
+    margin-left: 17px;
+}
+.r {
+    margin-left: 9px;
+}
+.t {
+    margin-left: 17px;
+}
+.phone {
+    margin-top: 20px;
 }
