@@ -1,4 +1,4 @@
 # UI Components
 ## Goal:
-Reproduce in html and CSS designs.
+Reproduce designs in html and CSS.
 
