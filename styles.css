@@ -8,8 +8,6 @@ body {
     outline: 1px solid #000;
 }
 
-
-}
 label[for="lname"] {
     margin-left: 45px;
     font-size: 13px;
@@ -148,4 +146,4 @@ textarea {
 }
 .bel {
     margin-top: 6px;
-    width: 255px;
+    width: 255px;}
