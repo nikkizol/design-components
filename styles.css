@@ -1,151 +1,104 @@
 body {
-    border-left: 1px solid ;
-    padding: 20px;
-    width: 800px;
-    margin:auto;
-}
-.outline-mode * {
-    outline: 1px solid #000;
-}
-label[for="lname"] {
-    margin-left: 45px;
-    font-size: 13px;
-}
-label[for="fname"] {
-    margin-left: 2px;
-    font-size: 13px;
-}
-.name {margin-left: 2px;
-}
-input {
-    margin-top: 6px;
-    margin-bottom: 6px;
-}
-select {
-    width:270px;
-}
-p {margin-top: 40px;
-    margin-bottom: 2px;
-
-}
-h1 {border-bottom: 1px dotted;
-    padding-bottom: 20px;}
-
-.date {
-    float: right;
-    margin-top: -23px;
-    margin-right: 397px;
-
+    max-width: 600px;
+    margin: auto;
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
 }
 
-label[for="mm"] {
-    margin-left: 2px;
-    font-size: 13px;
+h1 {
+    border-bottom: 1px dotted;
+    font-size: 25px;
+    padding: 15px;
 }
-label[for="dd"] {
-    margin-left: 11px;
-    font-size: 13px;
-}
-label[for="yyyy"] {
-    margin-left: 13px;
-    font-size: 13px;
-}
-select {
-    margin-top: 6px;
-    width: 240px;
-}
-
-h3  {
+.emergecyh {
     border-top: 1px dotted;
-    margin-top: 35px;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 15px;
+
 }
-#relationship {
-    margin-left: 72px;
+
+input {
+    width: 100%
 }
-.Relationship {
-    margin-left: 260px;
+
+.container {
+    width: 205px;
 }
-.Adress {
-    padding-top: 30px;
+
+.fname, .lname {
+    display: inline-block;
 }
-.StreetAddress {
+
+.lname {
+    float: right;
+}
+
+select {
+    width: 285px;
+}
+
+.date, .month, .year {
+    display: inline-block;
+    margin-top: -15px;
+    margin-right: 8px;
+}
+
+.container3 {
+    float: right;
+    margin-top: -70px;
+}
+.year {
+    padding-right: 125px;
+}
+
+.container4 {
+    width: 600px;
+}
+
+.raletionship {
+    display: inline-block;
+    float: right;
+    margin-top: -58px;
+}
+
+.container5 {
+    width: 600px;
+}
+
+label {
     font-size: 13px;
+    margin;
 }
-#adress {
-    margin-bottom: -2px;
+
+.container6 {
+    width: 600px;
 }
-#adr {
-    margin-top: 20px;
-    margin-bottom: -2px;
+
+.city, .state {
+    display: inline-block;
 }
-.addressline {
-    font-size: 13px;
-}
-.city {
-    font-size: 13px;
-}
+
 .state {
-    font-size: 13px;
-    margin-left: 233px;
+    float: right;
 }
+
+.container7 {
+    width: 277px;
+}
+
+.container8 {
+    float: right;
+    margin-top: -38px;
+    margin-right: -8px;
+}
+
 .country {
+    width: 290px;
+}
+
+span {
+    display: block;
     font-size: 13px;
-    margin-left: 166px;
+    margin-left: 3px;
 }
 
-#nm {
-    margin-left: 140px;
 
-}
-.workhome {
-    margin-left: 168px;
-}
-.numb {
-    margin-left: 153px;
-}
-.w {
-    margin-left: 9px;
-}
-.e {
-    margin-left: 17px;
-}
-.r {
-    margin-left: 9px;
-}
-.t {
-    margin-left: 17px;
-}
-.phone {
-    margin-top: 20px;
-}
-
-.pol {
-    margin-left: 118px;
-}
-#vv {
-    margin-left: 5px;
-}
-.workphone {
-    margin-left: 130px;
-
-}
-.digit {
-    margin-left: 110px;
-    margin-bottom: 20px;
-}
-textarea {
-    width: 60%;
-    height: 150px;
-    padding: 12px 20px;
-}
-.comm {
-    margin-top: 15px;
-}
-.bel {
-    margin-top: 6px;
-    width: 255px;}
-.name {
-    margin-bottom: -19px;
-}
