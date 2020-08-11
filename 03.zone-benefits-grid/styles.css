@@ -1,0 +1,27 @@
+body {
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+img {
+    width: 70%;
+    height: auto;
+}
+.grant {
+    grid-column-start:1;
+}
+.gulp {
+    grid-column-start:2;
+}
+.hooks {
+    grid-column-start:3;
+}
+.npm {
+    grid-column-start:4;
+    margin-top: 25px;
+}
+p {
+    width: 82%;
+}
