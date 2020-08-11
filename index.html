@@ -13,35 +13,31 @@
     <h4>Name</h4>
     <form>
         <div class="fname">
-            <input type="text" id="fname" name="fname" size="4">
+            <input class="input" type="text" id="fname" name="fname" size="4">
             <label for="fname">First</label>
         </div>
         <div class="lname">
-            <input type="text" id="lname" name="lname" size="12">
+            <input class="input" type="text" id="lname" name="lname" size="12">
             <label for="lname">Last</label>
         </div>
     </form>
 </div>
 <div class="container2">
     <h4>Gender</h4>
-    <select>
+    <select class="gender">
         <option>Male</option>
         <option>Female</option>
     </select>
 </div>
 <div class="container3">
+    <h4>Date of Birth</h4>
     <form>
-        <h4>Date of Birth</h4>
-        <div class="date">
-            <input type="date" id="dd" name="dd" size="1">
-            <label for="dd">MM </label>
-        </div>
-        <div class="month">
-            <input type="date" id="mm" name="mm" size="1">
-            <label for="mm">DD</label>
-        </div>
-        <div class="year">
-            <input type="date" id="yyyy" name="yyyy" size="1">
+        <input type="text" id="mm" name="mm" size="2"> /
+        <input type="text" id="dd" name="dd" size="2"> /
+        <input type="text" id="yyyy" name="yyyy" size="5"> 🗓
+        <div class="label">
+            <label for="mm">MM</label>
+            <label for="dd">DD</label>
             <label for="yyyy">YYYY</label>
         </div>
     </form>
@@ -51,19 +47,19 @@
     <h4>Name</h4>
     <form>
         <div class="fname">
-            <input type="text" id="fnameem" name="fname" size="4">
+            <input class="input" type="text" id="fnameem" name="fname" size="4">
             <label for="fnameem">First</label>
         </div>
         <div class="lname">
-            <input type="text" id="lnameem" name="lname" size="12">
+            <input class="input" type="text" id="lnameem" name="lname" size="12">
             <label for="lnameem">Last</label>
         </div>
     </form>
     <form>
         <div class="container4">
             <div class="raletionship">
-                <label for="relationship">Relationship</label>
-                <input type="text" id="relationship" name="relationship" size="30">
+                <label for="relationship"> <h3>Relationship</h3></label>
+                <input class="input" type="text" id="relationship" name="relationship" size="30">
             </div>
         </div>
     </form>
@@ -71,20 +67,20 @@
 <h4>Address</h4>
 <div class="container5">
     <form>
-        <input type="text" id="streetadress" name="streetadress">
+        <input class="input" type="text" id="streetadress" name="streetadress">
         <label for="streetadress">Street Address</label>
-        <input type="text" id="addressline" name="addressline">
+        <input class="input" type="text" id="addressline" name="addressline">
         <label for="addressline">Address Line</label>
     </form>
 </div>
 <div class="container6">
     <form>
         <div class="city">
-            <input type="text" id="city" name="city" maxlength="35" size="35">
+            <input class="input" type="text" id="city" name="city" maxlength="35" size="35">
             <label for="city">City</label>
         </div>
         <div class="state">
-            <input type="text" id="state" name="state" maxlength="20" size="20">
+            <input class="input" type="text" id="state" name="state" maxlength="20" size="20">
             <label for="state">State / Province / Region</label>
         </div>
     </form>
@@ -92,7 +88,7 @@
 
 <div class="container7">
     <form>
-        <input type="text" id="postal" name="postal">
+        <input class="input" type="text" id="postal" name="postal" maxlength="20" size="20">
         <label for="postal">Postal / Zip Code </label>
     </form>
 </div>
@@ -104,43 +100,55 @@
     <span>Country</span>
 </div>
 <div class="container9">
+    <h4>Home Phone</h4>
     <form>
-        <div class="phone"></div>
-        <label class="name"><b>Home Phone</b></label> <label class="workhome"><b>Work Phone</b></label></br>
-        <input type="text" id="mm" name="nn" value="" maxlength="2" size="2"> -
-        <input type="text" id="dd" name="dd" value="" maxlength="2" size="2"> -
-        <input type="text" id="yyyy" name="yyyy" value="" maxlength="5" size="5">
-        <input type="text" id="nm" name="nn" value="" maxlength="2" size="2"> -
-        <input type="text" id="dd" name="dd" value="" maxlength="2" size="2"> -
-        <input type="text" id="yyyy" name="yyyy" value="" maxlength="5" size="5"></br>
-        <label class="q">###</label>
-        <label class="w">###</label>
-        <label class="e">###</label>
-        <label class="numb">###</label>
-        <label class="r">###</label>
-        <label class="t">###</label></br>
-    </form>
-    <h3>Medical Information</h3>
-    <form>
-        <label><b>Hospital / Clinic Preference</b></label></br>
-        <input type="text" id="clini" name="adress" value="" maxlength="72" size="72"></br>
-        <label class="name"><b>Insurance Company</b></label> <label class="pol"><b>Policy Number</b></label> </br>
-        <input type="text" id="ins" name="adress" value="" maxlength="35" size="35">
-        <input type="text" id="pol" name="adress" value="" maxlength="35" size="35"> </br>
-        <label class="name"><b>Phiysician's Name</b></label> <label class=workphone><b>Phone Number</b></label></br>
-        <input type="text" id="ins" name="adress" value="" maxlength="35" size="35">
-        <input type="text" id="vv" name="nn" value="" maxlength="2" size="2"> -
-        <input type="text" id="dd" name="dd" value="" maxlength="2" size="2"> -
-        <input type="text" id="yyyy" name="yyyy" value="" maxlength="5" size="5"> </br>
-        <div class="digit">
-            <label class="numb">###</label>
-            <label class="r">###</label>
-            <label class="t">###</label>
+        <input type="text" id="1" maxlength="2" size="2"> -
+        <input type="text" id="2" maxlength="2" size="2"> -
+        <input type="text" id="3" maxlength="5" size="5">
+        <div class="labelphone">
+            <label for="1">###</label>
+            <label for="2">###</label>
+            <label for="3">###</label>
+        </div>
+        <div class="container10">
+            <h4>Work Phone</h4>
+            <input type="text" id="1.0" maxlength="2" size="2"> -
+            <input type="text" id="2.0" maxlength="2" size="2"> -
+            <input type="text" id="3.0" maxlength="5" size="5">
+            <div class="labelphone">
+                <label for="1.0">###</label>
+                <label for="2.0">###</label>
+                <label for="3.0">###</label>
+            </div>
         </div>
     </form>
-    <label class="all"><b>Allergies / Special Health Considerations</b></label>
-    <form class="comm">
-        <textarea> </textarea>
+    <h4 class="medicalinfo">Medical Information</h4>
+    <form>
+        <label for="Hospital"><h4>Hospital / Clinic Preference</h4></label>
+        <input class="input" type="text" id="Hospital" name="adress">
+        <label for="Insurance"><h4>Insurance Company</h4></label>
+        <input type="text" id="Insurance" name="adress" value="" maxlength="40" size="40">
+        <div class="policy">
+            <label for="Policy"><h4>Policy Number</h4></label>
+            <input type="text" id="Policy" name="adress" value="" maxlength="40" size="40">
+        </div>
+        <label for="Phiysician"><h4>Phiysician's Name</h4></label>
+        <input type="text" id="Phiysician" name="adress" value="" maxlength="40" size="40">
+        <div class="container11">
+            <label><h4>Phone Number</h4></label>
+            <input type="text" id="1.1" name="nn" value="" maxlength="2" size="2"> -
+            <input type="text" id="2.1" name="dd" value="" maxlength="2" size="2"> -
+            <input type="text" id="3.1" name="yyyy" value="" maxlength="5" size="5">
+            <div class="labelphone">
+                <label for="1.1">###</label>
+                <label for="2.1">###</label>
+                <label for="3.1">###</label>
+            </div>
+        </div>
+    </form>
+    <label for="textarea"><h4>Allergies / Special Health Considerations</h4></label>
+    <form>
+        <textarea id="textarea"> </textarea>
     </form>
     <input type="submit" value="Submit">
 </body>
