@@ -11,9 +11,11 @@
 }
 .but {
     width: 92%;
-    margin-top: -10%;
+    margin-top: -15%;
 }
 img {
-    width: 200px;
     height: 250px;
+}
+footer {
+    font-size: 13px;
 }
