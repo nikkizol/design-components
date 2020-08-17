@@ -1,0 +1,15 @@
+.carousel {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card {
+    width: 120%;
+}
+.col-md-2 {
+    margin-right: auto;
+}
+.but {
+    width: 92%;
+    margin-top: -10%;
+}
