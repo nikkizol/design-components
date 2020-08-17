@@ -18,4 +18,11 @@ img {
 }
 footer {
     font-size: 13px;
+    margin-top: -15px;
+}
+.stars {
+    color: lightseagreen;
+}
+.card-body {
+    margin-top: -15px;
 }
