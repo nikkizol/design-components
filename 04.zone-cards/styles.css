@@ -11,18 +11,22 @@
 }
 .but {
     width: 92%;
-    margin-top: -15%;
+    margin-top: -210px;
 }
 img {
     height: 250px;
 }
 footer {
     font-size: 13px;
-    margin-top: -15px;
+    margin-top: 2px;
 }
 .stars {
     color: lightseagreen;
 }
-.card-body {
+.body {
     margin-top: -15px;
+}
+
+.bodycard {
+    font-size: 15px;
 }
